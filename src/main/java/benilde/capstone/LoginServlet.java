@@ -23,13 +23,20 @@ public class LoginServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		if(username.equals("csb") && password.equals("csb"))
+		if(username.equals("annekadl") && password.equals("csb"))
 		{
 			HttpSession session = request.getSession();
 			session.setAttribute("username", username);
 			response.sendRedirect("welcome.jsp");
 		}
-		else {
+		
+		else if(username.equals("admin") && password.equals("adminpw"))
+		{
+			HttpSession session = request.getSession();
+			session.setAttribute("username", username);
+			response.sendRedirect("useradmin.jsp");
+		}
+		else{
 			response.sendRedirect("login.jsp");
 		}
 	}
