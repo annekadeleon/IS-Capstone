@@ -197,7 +197,7 @@ if(myCookies != null)
                                         <h3>Log In</h3>
                                     </div>
                                     <div class="card-body">                                        
-                                        <form method="post" action="Login">
+                                        <!-- <form method="post" action="Login"> -->
                                             <div class="input-group form-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" style="background-color: #F4B0A1"><i class="fas fa-info"></i></span>
@@ -222,7 +222,7 @@ if(myCookies != null)
                                             <input type="checkbox" name="rememberme"  value="RememberMe"/> Remember me <br />
                                                 <input type="submit" value="Login" class="btn float-center login_btn" style="margin-top: 9px ; background-color: #F4B0A1" onclick="display()">
                                             </div>
-                                        </form>
+                                        <!-- </form> -->
                                     </div>
                                   
                                 </div>
