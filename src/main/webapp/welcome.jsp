@@ -135,7 +135,14 @@
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">DATA</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">DASHBOARD</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.jsp" style="font-family: Spartan; color: #293241; font-size: 14px">MY ACCOUNT</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" style="font-family: Spartan; color: #293241; font-size: 14px">MY ACCOUNT
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="aboutus.jsp" style="font-family: Spartan; color: #293241; font-size: 14px">SETTINGS</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.jsp" style="font-family: Spartan; color: #293241; font-size: 14px"">LOG OUT</a></li>
+                        </ul>
+                      </li>
  
                 </ul>
             </div>
@@ -176,7 +183,6 @@
    
 	   </main>
 	
-</form>
 
 	<footer class="page-footer dark" style= "background-color: #D4E4ED; margin-top: -370px; height: 120px;">
         <div class="container">
@@ -190,5 +196,12 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    
+    <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<-- Always remember to call the above files first before calling the bootstrap.min.js file -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 </html>
