@@ -9,8 +9,9 @@
 <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
 <link rel="stylesheet" href="assets/css/smoothproducts.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link
-	href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+	href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
 	rel="stylesheet">
 <link rel="stylesheet"
 	href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
@@ -38,12 +39,39 @@ body {
 	min-height: 100%;
 }
 
-main{
+main {
 	margin: 2% 10% 15%;
 }
 
+nav a {
+	font-weight: 700;
+}
+
+.clean-navbar .navbar-nav .nav-link {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:  #293241!important;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .nav-link.active {
+    color:  #293241;
+}
+
+.dropdown-menu .nav-item .nav-link {
+	color: #293241;
+	font-size: 14px;
+}
+
+.dropdown-menu .nav-item .nav-link:hover {
+	color: #EE6C4D;
+}
+
 @import
-	url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap')
+	url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap')
 	;
 
 @import
@@ -64,6 +92,7 @@ h1 {
 	font-size: 60px;
 	font-weight: 800;
 	letter-spacing: -3px;
+	padding-bottom: 30px;
 }
 
 h2 {
@@ -73,6 +102,41 @@ h2 {
 
 p {
 	font-family: Spartan;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: -0.05em;
+	text-align: left;
+}
+
+a {
+	font-family: Spartan;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: -0.05em;
+	text-align: left;
+	color: #EE6C4D;
+}
+
+a:hover{
+	color: #EE6C4D;
+}
+
+.bg-lightblue {
+	background-color: #F1F6F9;
+	font-family: Spartan;
+}
+
+.bg-lightblue .card-header {
+	color: #293241;
+	font-weight: 700;
+}
+
+.bg-lightblue .card-body {
+	color: #293241;
 }
 
 /* .card was deleted */
@@ -88,7 +152,6 @@ p {
 .card-text {
 	text-align: left;
 	font-weight: bold;
-	font-size: 150px;
 }
 
 hr.line1 {
@@ -138,6 +201,7 @@ input:focus {
 }
 
 footer {
+	font-weight: 700;
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -145,13 +209,12 @@ footer {
 	height: 200px;
 }
 
-.footer-content{
+.footer-content {
 	position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0 10% 0;
-    font-family: Spartan;
-}
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 10% 0;
+	font-family: Spartan;
 }
 </style>
 </head>
@@ -168,26 +231,34 @@ footer {
 	<!-- End validation -->
 
 	<nav
-		class="navbar navbar-primary navbar-expand-lg fixed-top clean-navbar"
-		style="background-color: #EE6C4D; height: 70px;">
-		<a class="navbar-brand logo" href="home.jsp"
-			style="font-family: Spartan; color: #FFFFFF; font-size: 20px;">&nbsp;LOGO</a>
+		class="navbar navbar-primary navbar-expand-lg navbar-dark fixed-top clean-navbar"
+		style="background-color: #EE6C4D; height: 70px; padding-left: 0px; padding-right: 0px;">
+		<a class="navbar-brand logo" href="index.jsp"
+			style="font-family: Spartan; color: #FFFFFF; font-size: 20px; padding-left: 10%;">LOGO</a>
 		<button class="navbar-toggler" data-toggle="collapse"
-			data-target="#navcol-1">
-			<span class="sr-only">Toggle navigation</span><span
-				class="navbar-toggler-icon"></span>
+			data-target="#navcol-1" style="margin-right: 10%;">
+			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navcol-1">
+		<div class="collapse navbar-collapse" id="navcol-1"
+			style="background-color: #EE6C4D; padding-left: 10%;">
 			<ul class="nav navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+					<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">
+						DATA
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" href="data.jsp">OVERVIEW</a></li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" href="add_data.jsp">ADD DATA</a></li>
+					</ul>
+				</li>
 				<li class="nav-item" role="presentation"><a class="nav-link"
-					href="support.jsp"
-					style="font-family: Spartan; color: #FFFFFF; font-size: 14px">DATA</a></li>
-				<li class="nav-item" role="presentation"><a class="nav-link"
-					href="support.jsp"
-					style="font-family: Spartan; color: #FFFFFF; font-size: 14px">DASHBOARD</a></li>
+					href="support.jsp">DASHBOARD</a></li>
 				<li class="nav-item dropdown"><a
 					class="dropdown-toggle nav-link" data-toggle="dropdown" href="#"
-					style="font-family: Spartan; color: #293241; font-size: 14px">MY
+					style="font-family: Spartan; font-size: 14px">MY
 						ACCOUNT <span class="caret"></span>
 				</a>
 					<ul class="dropdown-menu">
@@ -209,12 +280,27 @@ footer {
 		<h2><jsp:invoke fragment="subhead" /></h2>
 		<jsp:doBody />
 	</main>
-	
-	<footer class="page-footer dark" style= "background-color: #D4E4ED;">
-        <div class="footer-content">
-            <div class="row" style="font-size: 35px;">LOGO</div>
-            <div class="row" style="font-size: 15px;"> © 2021 Analytics for SMRetailEs</div>
-        </div>
-    </footer>
+
+	<footer class="page-footer dark" style="background-color: #D4E4ED;">
+		<div class="footer-content">
+			<div class="row" style="font-size: 35px;">LOGO</div>
+			<div class="row" style="font-size: 15px;">© 2021 Analytics for
+				SMRetailEs</div>
+		</div>
+	</footer>
+
+	<!-- JavaScript to expand the navbar -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+		integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+		integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+		crossorigin="anonymous"></script>
+	<!-- End JS for navbar -->
 </body>
 </html>
