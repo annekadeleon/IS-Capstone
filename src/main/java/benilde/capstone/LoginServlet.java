@@ -24,14 +24,14 @@ public class LoginServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		if(username.equals("annekadl") && password.equals("csb"))
+		if(username.equals("anneka.deleon") && password.equals("csb") || username.equals("jam.anchores") && password.equals("csb") || username.equals("caryl.vallejo") && password.equals("csb")) 
 		{
 			HttpSession session = request.getSession();
 			session.setAttribute("username", username);
 			response.sendRedirect("welcome.jsp");
 		}
 		
-		else if(username.equals("admin") && password.equals("adminpw"))
+		else if(username.equals("admin1") && password.equals("adminpw"))
 		{
 			HttpSession session = request.getSession();
 			session.setAttribute("username", username);

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/">
-    <title>Logo</title>
+    <title>Login</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.min.css">
@@ -15,11 +15,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     
     <style>
-        video {
-        margin: 0 auto;
-        display:block;
-            
-        }
+
      @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
 
         .container{
@@ -125,7 +121,7 @@ if(myCookies != null)
 
 <body>
 	 <nav class="navbar navbar-primary navbar-expand-lg fixed-top clean-navbar" style="background-color:#EE6C4D; height: 70px;">
-        <a class="navbar-brand logo" href="home.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 20px;">LOGO</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <a class="navbar-brand logo" href="home.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOGO</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 
@@ -244,16 +240,16 @@ if(myCookies != null)
     </main>
 </form>
                         
-   <footer class="page-footer dark" style= "background-color: #D4E4ED">
+   <footer class="page-footer dark" style= "background-color: #D4E4ED; margin-top: 0px; height: 200px;">
         <div class="container">
             <div class="row"
-                style="font-size: 35px; font-family: Spartan;"> LOGO
+                style="font-size: 35px; font-family: Spartan;"><br> LOGO
             </div>
             <div class="row"
                 style="font-size: 15px; font-family: Spartan;"> © 2021 Analytics for SMRetailEs
             </div>
         </div>
-    </footer>
+	</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
 

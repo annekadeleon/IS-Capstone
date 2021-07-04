@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/">
-    <title>Logo</title>
+    <title>Account</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.min.css">
@@ -16,10 +16,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     
     <style>
-        html, body {
-  		overflow: hidden;
-		}
-		
+    
      @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
      @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
 
@@ -58,41 +55,7 @@
  	 	border-top: 1px solid #98C1D9;
 		}
 		
-        .input-group-prepend span{
-        width: 50px;
-        background-color: #F4B0A1;
-        color: black;
-        border:0 !important;
-        }
 
-        input:focus{
-        outline: 0 0 0 0  !important;
-        box-shadow: 0 0 0 0 !important;
-
-        }
-
-        .remember{
-        color: white;
-        }
-
-        .remember input
-        {
-        width: 20px;
-        height: 20px;
-        margin-left: 15px;
-        margin-right: 5px;
-        }
-
-        .login_btn{
-        color: black;
-        background-color: #F4B0A1;
-        width: 100px;
-        }
-
-        .login_btn:hover{
-        color: black;
-        background-color: white;
-        }
 
         .links{
         color: white;
@@ -140,14 +103,20 @@
                         <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="aboutus.jsp" style="font-family: Spartan; color: #293241; font-size: 14px">SETTINGS</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.jsp" style="font-family: Spartan; color: #293241; font-size: 14px"">LOG OUT</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.jsp" style="font-family: Spartan; color: #293241; font-size: 14px" onclick="myFunction()">LOG OUT</a></li>
+
+					<script>
+						function myFunction() {
+  						alert("Log out successful!");
+						}
+					</script>
                         </ul>
                       </li>
  
                 </ul>
             </div>
     </nav>
-    <main class="page landing-page">
+    <main class="page landing-page" style="min-height: 50%;">
         <h1 style="font-family:Abhaya Libre; font-size: 50px;">&nbsp;&nbsp;&nbsp;Welcome, ${username}!</h1>
 		<h2 style="font-family:Spartan; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today's Overview </h2>
         <section class="clean-block clean-hero" style="color:rgba(0, 0, 0, 0.9);">
@@ -184,16 +153,16 @@
 	   </main>
 	
 
-	<footer class="page-footer dark" style= "background-color: #D4E4ED; margin-top: -370px; height: 120px;">
+	<footer class="page-footer dark" style= "background-color: #D4E4ED; margin-top: -200px; height: 200px;">
         <div class="container">
             <div class="row"
-                style="font-size: 35px; font-family: Spartan;"> LOGO
+                style="font-size: 35px; font-family: Spartan;"><br> LOGO
             </div>
             <div class="row"
                 style="font-size: 15px; font-family: Spartan;"> © 2021 Analytics for SMRetailEs
             </div>
         </div>
-    </footer>
+	</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
     
