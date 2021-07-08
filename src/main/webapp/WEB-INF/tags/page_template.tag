@@ -31,16 +31,22 @@
 
 <style>
 html, body {
-	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	/* overflow: hidden; */
+}
+
+html{
+	height: 100%;
 }
 
 body {
-	height: 100%;
 	min-height: 100%;
 }
 
 main {
-	margin: 2% 10% 15%;
+	margin: 2% 10% 5%;
+	min-height: 100%;
 }
 
 nav a {
@@ -83,8 +89,37 @@ nav a {
 	align-content: center;
 }
 
-.page landing-page {
+.page .landing-page {
 	height: 10px;
+}
+
+div {
+	font-family: Spartan;
+}
+
+thead {
+	/* background-color: #EE6C4D;*/
+	background-color: #98C1D9;
+	color: #fff;
+}
+
+table{
+	font-family: Spartan;
+}
+
+.table-row-odd{
+	/* background-color: #f8d7cd; */
+	background-color: #F1F6F9;
+}
+
+.table-row-even {
+	/* background-color: #fcece8; */
+	background-color: #F1F6F9;
+}
+
+.data{
+    max-height: 550px;
+    overflow: scroll;
 }
 
 h1 {
@@ -97,7 +132,8 @@ h1 {
 
 h2 {
 	font-family: Spartan;
-	font-size: 20px;
+	font-size: 30px;
+	letter-spacing: 3px;
 }
 
 p {
@@ -137,9 +173,13 @@ a:hover{
 
 .bg-lightblue .card-body {
 	color: #293241;
+	max-width: 365px;
+	margin: auto;
 }
 
-/* .card was deleted */
+.card {
+	min-width: 365px;
+}
 
 .card-header h3 {
 	color: white;
@@ -168,6 +208,28 @@ hr.line1 {
 input:focus {
 	outline: 0 0 0 0 !important;
 	box-shadow: 0 0 0 0 !important;
+}
+
+.form-control:focus{
+	border-color: #EE6C4D;
+}
+
+.btn-outline-secondary {
+    color: #EE6C4D;
+    border-color: #EE6C4D;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    border-color: #EE6C4D;
+    background-color: #EE6C4D;
+    
+}
+
+.alert{
+	padding: 15px;
+	text-align: center;
+	font-size: 20px;
 }
 
 .remember {
@@ -200,9 +262,30 @@ input:focus {
 	margin-left: 4px;
 }
 
+/* Custom scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fffff;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D4E4ED;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F4B0A1; 
+}
+
 footer {
 	font-weight: 700;
-	position: fixed;
+	position: relative;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -220,15 +303,13 @@ footer {
 </head>
 <body>
 
-	<!-- Validate login -->
-	<%-- <%
+	<%
 	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); //Can't access page after logout
 
 	if (session.getAttribute("username") == null) {
 		response.sendRedirect("login.jsp");
 	}
-	%> --%>
-	<!-- End validation -->
+	%>
 
 	<nav
 		class="navbar navbar-primary navbar-expand-lg navbar-dark fixed-top clean-navbar"
@@ -251,7 +332,7 @@ footer {
 						<li class="nav-item" role="presentation">
 							<a class="nav-link" href="data.jsp">OVERVIEW</a></li>
 						<li class="nav-item" role="presentation">
-							<a class="nav-link" href="add_data.jsp">ADD DATA</a></li>
+							<a class="nav-link" href="add_data.jsp">UPLOAD NEW DATA</a></li>
 					</ul>
 				</li>
 				<li class="nav-item" role="presentation"><a class="nav-link"
@@ -263,12 +344,21 @@ footer {
 				</a>
 					<ul class="dropdown-menu">
 						<li class="nav-item" role="presentation"><a class="nav-link"
+							href="welcome.jsp"
+							style="font-family: Spartan; color: #293241; font-size: 14px">HOME</a></li>
+						<li class="nav-item" role="presentation"><a class="nav-link"
 							href="aboutus.jsp"
 							style="font-family: Spartan; color: #293241; font-size: 14px">SETTINGS</a></li>
 						<li class="nav-item" role="presentation"><a class="nav-link"
 							href="index.jsp"
-							style="font-family: Spartan; color: #293241; font-size: 14px"">LOG
-								OUT</a></li>
+							style="font-family: Spartan; color: #293241; font-size: 14px"
+							onclick="myFunction()">LOG OUT</a></li>
+
+						<script>
+							function myFunction() {
+								alert("Log out successful!");
+							}
+						</script>
 					</ul></li>
 
 			</ul>
