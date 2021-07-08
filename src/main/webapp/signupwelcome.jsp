@@ -126,9 +126,9 @@
         <div class="card text-black mb-4" style="background-color: #F1F6F9; width: 450px; height:200px;; margin-top: -320px; margin-left: -40px;">
             <div class="card-body">
                 <h5 class="card-title">Total Sales</h5>
-                <p class="card-text" style="font-size: 30px;">P3,900.00</p>
+                <p class="card-text" style="font-size: 30px;">-</p>
                 <hr class="line1">
-                <h6 style="text-align: left;">3 total orders&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h6 style="text-align: left;">No Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="data.jsp" style="color: #EE6C4D">View All</a></h6>
             </div>
@@ -138,16 +138,16 @@
         <div class="card text-black mb-4" style="background-color: #F1F6F9; width: 450px; height: 200px; margin-top: -320px;">
             <div class="card-body">
                 <h5 class="card-title">Total Expenses</h5>
-                <p class="card-text" style="font-size: 30px;">P800.00</p>
+                <p class="card-text" style="font-size: 30px;">-</p>
                 <hr class="line1">
-                <h6 style="text-align: left;">1 fixed cost&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h6 style="text-align: left;">No Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="data.jsp" style="color: #EE6C4D">View All</a></h6>
             </div>
         </div>
     </div>
+      
     </div>
-  
               
         </section>
 	   </main>
@@ -172,4 +172,4 @@
   <!-- Always remember to call the above files first before calling the bootstrap.min.js file -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
-</html>
+</html>ml>

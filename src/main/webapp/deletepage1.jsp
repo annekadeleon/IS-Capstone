@@ -91,7 +91,7 @@
         <h1 style="font-family:Abhaya Libre; font-size: 50px; margin-left: 60px;">Welcome, ${username}!</h1>
 		<h2 style="font-family:Spartan; font-size: 20px; margin-left: 60px;">User Admin Profile </h2>
         <section class="clean-block clean-hero" style="color:rgba(0, 0, 0, 0.9);">
-          <table class="table table-bordered" style="margin-top: -215px; width:90%;">
+          <table class="table table-bordered" style="margin-top: -270px; width:90%;">
   			<thead style="background-color:#EE6C4D; color:#FFFFFF">
     			<tr>
       				<th scope="col">User ID</th>
@@ -102,18 +102,6 @@
     			</tr>
   			</thead>
   			<tbody>
-    			<tr style="background-color: #f8d7cd">
-      				<th scope="row">1</th>
-      				<td>jam.anchores</td>
-      				<td><u>net_sales_ABCDShop.xlsx</u></td>
-      				<td>07/04/21</td>
-      				<td>
-      					<a class="visibility" title="Visibility" data-toggle="tooltip"><i class="material-icons" style="color:#EE6C4D">&#xe8f4;</i></a>
-                    	<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow">&#xE254;</i></a>
-                    	<a class="delete" title="Delete" data-toggle="tooltip" href="deletepage1.jsp"><i class="material-icons" style="color:red">&#xE872;</i></a>
-      				</td>
-      				
-    			</tr>
     			<tr style="background-color: #fcece8">
       				<th scope="row">1</th>
       				<td>jam.anchores</td> 
@@ -122,7 +110,7 @@
       				<td>
       					<a class="visibility" title="Visibility" data-toggle="tooltip"><i class="material-icons" style="color:#EE6C4D">&#xe8f4;</i></a>
       					<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow">&#xE254;</i></a>
-                    	<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red">&#xE872;</i></a>
+                    	<a class="delete" title="Delete" data-toggle="tooltip" href="deletepage2.jsp"><i class="material-icons" style="color:red">&#xE872;</i></a>
       				</td>
     			</tr>
     			<tr style="background-color: #f8d7cd">

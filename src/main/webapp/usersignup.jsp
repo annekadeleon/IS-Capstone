@@ -114,7 +114,7 @@
                 </ul>
             </div>
     </nav>
-	<form action="LoginServlet" method="post">
+	<form action="SignUpServlet" method="post">
     <main class="page landing-page">
 
         
@@ -203,7 +203,7 @@
 
 </form>
 
-<footer class="page-footer dark" style= "background-color: #D4E4ED; margin-top: 0px; height: 200px;">
+<footer class="page-footer dark" style= "background-color: #D4E4ED; margin-top: -20px; height: 200px;">
         <div class="container">
             <div class="row"
                 style="font-size: 35px; font-family: Spartan;"><br> LOGO
