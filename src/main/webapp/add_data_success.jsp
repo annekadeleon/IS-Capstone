@@ -7,6 +7,10 @@
 	<jsp:attribute name="subhead"> <!-- No subhead --> </jsp:attribute>
 
 	<jsp:body>
+		<div id="successAlert" class="alert alert-dismissible alert-success">
+		  <button type="button" class="close" data-dismiss="alert">&times;</button>
+		  Data successfully uploaded. <a href="data_new.jsp" class="alert-link">Click here</a> to view.
+		</div>
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="card text-white bg-lightblue mb-3">

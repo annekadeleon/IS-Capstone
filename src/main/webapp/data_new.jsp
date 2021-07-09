@@ -9,6 +9,10 @@
 	</jsp:attribute>
 
 	<jsp:body>
+		<div id="successAlert" class="alert alert-dismissible alert-warning">
+		  <button type="button" class="close" data-dismiss="alert">&times;</button>
+		  New data has been added.
+		</div>
 		<div class="row">
 			<div class="col data">
 				<div class="row" style="padding: 0 10 0">
@@ -20,6 +24,30 @@
 					</div>
 				</div>
 				<table class="table">
+		  			<thead>
+		    			<tr>
+		      				<th>Today</th>
+		      				<th></th>
+		      				<th></th>
+		    			</tr>
+		  			</thead>
+		  			<tbody>
+		    			<tr class="table-row-odd">
+		      				<th>ORDER#1592</th>
+		      				<td>&#8369;1,500.00</td>
+		      				<td>1 item</td>
+		    			</tr>
+		    			<tr class="table-row-even">
+		      				<th>ORDER#1592</th>
+		      				<td>&#8369;900.00</td>
+		      				<td>1 item</td>
+		    			</tr>
+		    			<tr class="table-row-odd">
+		      				<th>ORDER#1590</th>
+		      				<td>&#8369;1,500.00</td>
+		      				<td>1 item</td>
+		    			</tr>
+		  			</tbody>
 		  			<thead>
 		    			<tr>
 		      				<th>Yesterday</th>
