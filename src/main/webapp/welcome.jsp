@@ -22,6 +22,9 @@
 	href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
 	integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
 	crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
 html, body {
@@ -60,8 +63,6 @@ main {
 	font-family: 'Abhaya Libre', serif;
 }
 
-//
-.card was deleted
 
 
         .card-header h3 {
@@ -89,7 +90,9 @@ hr.line1 {
 .links a {
 	margin-left: 4px;
 }
-
+.btn {
+margin-top: -710px;
+}
 .footer {
 	position: fixed;
 	left: 0;
@@ -201,7 +204,7 @@ hr.line1 {
 							style="font-family: Spartan; color: #293241; font-size: 14px"
 							onclick="myFunction()">LOG OUT</a></li>
 
-						<script>
+					<script>
 							function myFunction() {
 								alert("Log out successful!");
 							}
@@ -216,18 +219,20 @@ hr.line1 {
 			${username}!</h1>
 		<h2 style="font-family: Spartan; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today's
 			Overview</h2>
+			
+		<a href="add_data.jsp" style="color: #EE6C4D; margin-left: 780px; font-size: 16px;" class="add" title="Add" data-toggle="tooltip"><b>INPUT BUSINESS DATA<i class="material-icons" style="color:#EE6C4D;">&#xe03b</i></a>
 		<section class="clean-block clean-hero"
 			style="color: rgba(0, 0, 0, 0.9);">
-			<div class="row">
+			<div class="row" style="margin-left: -10px;">
 				<div class="col-sm-6">
 					<div class="card text-black mb-4"
-						style="background-color: #F1F6F9; width: 450px; height: 200px;; margin-top: -320px; margin-left: -40px;">
+						style="background-color: #F1F6F9; width: 450px; height: 200px;; margin-top: -320px;">
 						<div class="card-body">
 							<h5 class="card-title">Total Sales</h5>
 							<p class="card-text" style="font-size: 30px;">P3,900.00</p>
 							<hr class="line1">
 							<h6 style="text-align: left;">
-								3 total
+								6 total
 								orders&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="data.jsp"
@@ -249,17 +254,19 @@ hr.line1 {
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
 									href="data.jsp" style="color: #EE6C4D">View All</a>
+								<br>6 variable cost
 							</h6>
 						</div>
 					</div>
 				</div> 
+			</div>
+
 		</section>
-
 	</main>
-
+	
 
 	<footer class="page-footer dark"
-		style="background-color: #D4E4ED; margin-top: -200px; height: 200px;">
+		style="background-color: #D4E4ED; margin-top: -265px; height: 200px;">
 		<div class="container">
 			<div class="row" style="font-size: 35px; font-family: Spartan;">
 				<br> LOGO

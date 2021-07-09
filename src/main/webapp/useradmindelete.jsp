@@ -187,16 +187,6 @@
                     	<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red">&#xE872;</i></a>
       				</td>
     			</tr>
-    			<tr style="background-color: #fcece8">
-    				<th scope="row">4</th>
-      				<td>Sahil Phabiani</td>
-      				<td>sahil.phabiani</td>
-      				<td>sahil.phabiani@benilde.edu.ph</td>
-      				<td>
-      					<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow">&#xE254;</i></a>
-                    	<a class="delete" title="Delete" data-toggle="tooltip" href="useradmindelete.jsp"><i class="material-icons" style="color:red">&#xE872;</i></a>
-      				</td>
-    			</tr>
   			</tbody>
 		</table>
           

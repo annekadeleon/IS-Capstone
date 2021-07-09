@@ -41,7 +41,7 @@
 							  	<h4 class="card-title">Insert Google Sheets URL</h4>
 							  	<input type="text" name="shopExpenses" class="form-control" placeholder="Insert URL here" id="inputDefault">
 							  </div>
-							  <button onclick="uploadSuccess()" type="submit" class="btn btn-outline-secondary" style="text-align: center; width: 100%;">Upload Net Sales</button>
+							  <button onclick="uploadSuccess()" type="submit" class="btn btn-outline-secondary" style="text-align: center; width: 100%;">Upload Shop Expenses</button>
 						  </form>
 					  </div>
 				</div>
@@ -60,7 +60,7 @@
 							  	<h4 class="card-title">Insert Google Sheets URL</h4>
 							  	<input type="text" name="soldItems" class="form-control" placeholder="Insert URL here" id="inputDefault">
 							  </div>
-							  <button onclick="uploadSuccess()" type="submit" class="btn btn-outline-secondary" style="text-align: center; width: 100%;">Upload Net Sales</button>
+							  <button onclick="uploadSuccess()" type="submit" class="btn btn-outline-secondary" style="text-align: center; width: 100%;">Upload List of Sold Items</button>
 						  </form>
 					  </div>
 				</div>
