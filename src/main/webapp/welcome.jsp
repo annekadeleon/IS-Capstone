@@ -114,7 +114,7 @@ margin-top: -710px;
 		class="navbar navbar-primary navbar-expand-lg fixed-top clean-navbar"
 		style="background-color: #EE6C4D; height: 70px;">
 		<a class="navbar-brand logo" href="home.jsp"
-			style="font-family: Spartan; color: #FFFFFF; font-size: 20px;">&nbsp;LOGO</a>
+			style="font-family: Spartan; color: #FFFFFF; font-size: 20px; margin-left: 110px;">LOGO</a>
 		<button class="navbar-toggler" data-toggle="collapse"
 			data-target="#navcol-1">
 			<span class="sr-only">Toggle navigation</span><span
@@ -184,9 +184,23 @@ margin-top: -710px;
 
 
  		<ul class="nav navbar-nav ml-auto">
-				<li class="nav-item" role="presentation"><a class="nav-link"
-					href="data.jsp"
-					style="font-family: Spartan; color: #FFFFFF; font-size: 14px">DATA</a></li>
+				<li class="nav-item dropdown">
+					<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" style="font-family: Spartan; color: #293241; font-size: 14px;">
+						DATA
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" href="data.jsp"
+							style="font-family: Spartan; color: #293241; font-size: 14px">OVERVIEW</a></li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" href="add_data.jsp"
+							style="font-family: Spartan; color: #293241; font-size: 14px">UPLOAD NEW DATA</a></li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" href="manual_input.jsp"
+							style="font-family: Spartan; color: #293241; font-size: 14px">INPUT NEW DATA</a></li>
+					</ul>
+					</li>
 				<li class="nav-item" role="presentation"><a class="nav-link"
 					href="support.jsp"
 					style="font-family: Spartan; color: #FFFFFF; font-size: 14px">DASHBOARD</a></li>
@@ -197,7 +211,7 @@ margin-top: -710px;
 				</a>
 					<ul class="dropdown-menu">
 						<li class="nav-item" role="presentation"><a class="nav-link"
-							href="aboutus.jsp"
+							href="/"
 							style="font-family: Spartan; color: #293241; font-size: 14px">SETTINGS</a></li>
 						<li class="nav-item" role="presentation"><a class="nav-link"
 							href="index.jsp"
