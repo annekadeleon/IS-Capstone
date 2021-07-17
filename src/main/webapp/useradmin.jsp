@@ -119,7 +119,22 @@
        
                 
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">DATA</a></li>
+                    <li class="nav-item dropdown">
+					<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" style="font-family: Spartan; color: #FFFFFF; font-size: 14px;">
+						DATA
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" href="data.jsp"
+							style="font-family: Spartan; color: #293241; font-size: 14px">OVERVIEW</a></li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" href="add_data.jsp"
+							style="font-family: Spartan; color: #293241; font-size: 14px">UPLOAD NEW DATA</a></li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" href="manual_input.jsp"
+							style="font-family: Spartan; color: #293241; font-size: 14px">INPUT NEW DATA</a></li>
+					</ul>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">DASHBOARD</a></li>
                     <li class="nav-item dropdown">
                         <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" style="font-family: Spartan; color: #293241; font-size: 14px">MY ACCOUNT
@@ -152,6 +167,7 @@
       				<th scope="col">Name</th>
       				<th scope="col">Username</th>
       				<th scope="col">Email</th>
+      				<th scope="col">Role</th>
       				<th scope="col">Actions</th>
     			</tr>
   			</thead>
@@ -161,10 +177,12 @@
       				<td><a href="viewusers.jsp" style="color: black">Jam Anchores</td>
       				<td>jam.anchores</td>
       				<td>jam.anchores@benilde.edu.ph</td>
+      				<td>Editor</td>
       				<td>
                     	<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow">&#xE254;</i></a>
                     	<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red">&#xE872;</i></a>
       				</td>
+      				
       				
     			</tr>
     			<tr style="background-color: #fcece8">
@@ -172,6 +190,7 @@
       				<td>Caryl Vallejo</td> 
       				<td>caryl.vallejo</td>
       				<td>caryl.vallejo@benilde.edu.ph</td>
+      				<td>Editor</td>
       				<td>
       					<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow">&#xE254;</i></a>
                     	<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red">&#xE872;</i></a>
@@ -182,6 +201,7 @@
       				<td>Anneka de Leon</td>
       				<td>anneka.deleon</td>
       				<td>anneka.deleon@benilde.edu.ph</td>
+      				<td>Editor</td>
       				<td>
       					<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow">&#xE254;</i></a>
                     	<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red">&#xE872;</i></a>
@@ -192,6 +212,7 @@
       				<td>Sahil Phabiani</td>
       				<td>sahil.phabiani</td>
       				<td>sahil.phabiani@benilde.edu.ph</td>
+      				<td>Viewer</td>
       				<td>
       					<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow">&#xE254;</i></a>
                     	<a class="delete" title="Delete" data-toggle="tooltip" href="useradmindelete.jsp"><i class="material-icons" style="color:red">&#xE872;</i></a>

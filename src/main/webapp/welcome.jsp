@@ -185,7 +185,7 @@ margin-top: -710px;
 
  		<ul class="nav navbar-nav ml-auto">
 				<li class="nav-item dropdown">
-					<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" style="font-family: Spartan; color: #293241; font-size: 14px;">
+					<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" style="font-family: Spartan; color: #FFFFFF; font-size: 14px;">
 						DATA
 						<span class="caret"></span>
 					</a>
