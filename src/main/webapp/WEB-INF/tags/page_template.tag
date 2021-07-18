@@ -45,7 +45,7 @@ body {
 }
 
 main {
-	margin: 2% 5% 1%;
+	margin: 2% 5% 5%;
 	min-height: 100%;
 }
 

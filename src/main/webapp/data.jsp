@@ -2,7 +2,7 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 
 <t:page_template>
-	<jsp:attribute name="title">Data - View</jsp:attribute>
+	<jsp:attribute name="title">OVERVIEW | BUSINESS DATA CENTER</jsp:attribute>
 	<jsp:attribute name="header">Business Data Center</jsp:attribute>
 	<jsp:attribute name="subhead">Overview</jsp:attribute>
 
@@ -13,11 +13,30 @@
 					<div class="col">
 						<h3>Orders</h2>
 					</div>
-					<div class="col" style="text-align: right; margin-bottom: 15px; margin-top: auto;">
+					<!-- <div class="col" style="text-align: right; margin-bottom: 15px; margin-top: auto;">
 						<a href="add_data.jsp">Add data</a>
-					</div>
+					</div> -->
 				</div>
 				<table class="table">
+					<thead>
+		    			<tr>
+		      				<th>Today</th>
+		      				<th></th>
+		      				<th></th>
+		      				<th></th> 			
+		    			</tr>
+		  			</thead>
+		  			<tbody>
+		    			<tr class="table-row-odd">
+		      				<th>ORDER#1590</th>
+		      				<td>&#8369;2,700.00</td>
+		      				<td>2 items</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
+		    			</tr>
+		  			</tbody>
 		  			<thead>
 		    			<tr>
 		      				<th>Yesterday</th>
@@ -35,8 +54,6 @@
                     			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
                     			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
       						</td>
-      					
-		      				
 		    			</tr>
 		  			</tbody>
 		  			<thead>
@@ -112,9 +129,9 @@
 					<div class="col">
 						<h3>Expenses</h2>
 					</div>
-					<div class="col" style="text-align: right; margin-bottom: 15px; margin-top: auto;">
+					<!-- <div class="col" style="text-align: right; margin-bottom: 15px; margin-top: auto;">
 						<a href="add_data.jsp">Add data</a>
-					</div>
+					</div> -->
 				</div>
 				<table class="table">
 		  			<thead>
@@ -146,7 +163,7 @@
 		  			</thead>
 		  			<tbody>
 		    			<tr class="table-row-odd">
-		      				<th>Capital Expenditures</th>
+		      				<th>Advertising</th>
 		      				<td>&#8369;500.00</td>
 		      				<td>Variable Cost</td>
 		      				<td>
@@ -165,16 +182,16 @@
 		  			</thead>
 		  			<tbody>
 		    			<tr class="table-row-odd">
-		      				<th>Capital Expenditures</th>
+		      				<th>Advertising</th>
 		      				<td>&#8369;1,000.00</td>
-		      				<td>Variable Cost</td>
-		      				<td>
+		      				<td style="min-width: 120px;">Variable Cost</td>
+		      				<td style="min-width: 80px;">
                     			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
                     			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
       						</td>
 		    			</tr>
 		    			<tr class="table-row-even">
-		      				<th>Supplier Payments</th>
+		      				<th>Suppliers</th>
 		      				<td>&#8369;700.00</td>
 		      				<td>Variable Cost</td>
 		      				<td>
@@ -193,7 +210,7 @@
 		  			</thead>
 		  			<tbody>
 		    			<tr class="table-row-odd">
-		      				<th>Capital Expenditures</th>
+		      				<th>Advertising</th>
 		      				<td>&#8369;1,300.00</td>
 		      				<td>Variable Cost</td>
 		      				<td>
@@ -202,7 +219,7 @@
       						</td>
 		    			</tr>
 		    			<tr class="table-row-even">
-		      				<th>Supplier Payments</th>
+		      				<th>Suppliers</th>
 		      				<td>&#8369;1400.00</td>
 		      				<td>Variable Cost</td>
 		      				<td>
@@ -216,11 +233,11 @@
 			<div class="col data">
 				<div class="row" style="padding: 0 10 0">
 					<div class="col-7">
-						<h3>Sold Items</h2>
+						<h3>Sold Items</h3>
 					</div>
-					<div class="col" style="text-align: right; margin-bottom: 15px; margin-top: auto;">
+					<!-- <div class="col" style="text-align: right; margin-bottom: 15px; margin-top: auto;">
 						<a href="add_data.jsp">Add data</a>
-					</div>
+					</div> -->
 					<table class="table">
 			  			<thead>
 			    			<tr>
@@ -364,6 +381,10 @@
 		  			</table>
 				</div>
 			</div>
+		</div>
+		
+		<div style="text-align: center; margin-bottom: 15px;">
+			<a class="btn btn-outline-secondary" href="add_data.jsp" style="width: 20%;">Add data</a>
 		</div>
     </jsp:body>
 
