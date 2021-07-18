@@ -45,7 +45,7 @@ body {
 }
 
 main {
-	margin: 2% 10% 5%;
+	margin: 2% 5% 1%;
 	min-height: 100%;
 }
 
@@ -105,6 +105,7 @@ thead {
 
 table{
 	font-family: Spartan;
+	font-size: 13px;
 }
 
 .table-row-odd{
@@ -127,13 +128,18 @@ h1 {
 	font-size: 60px;
 	font-weight: 800;
 	letter-spacing: -3px;
-	padding-bottom: 30px;
 }
 
 h2 {
 	font-family: Spartan;
-	font-size: 30px;
+	font-size: 40px;
 	letter-spacing: 3px;
+	padding-bottom: 30px;
+}
+
+h3{
+	font-family: Spartan;
+	font-size: 28px;
 }
 
 p {
@@ -173,7 +179,7 @@ a:hover{
 
 .bg-lightblue .card-body {
 	color: #293241;
-	max-width: 365px;
+	max-width: 80%;
 	margin: auto;
 }
 
@@ -338,7 +344,7 @@ footer {
 					</ul>
 				</li>
 				<li class="nav-item" role="presentation"><a class="nav-link"
-					href="support.jsp">DASHBOARD</a></li>
+					href="business_data_analysis.jsp">DASHBOARD</a></li>
 				<li class="nav-item dropdown"><a
 					class="dropdown-toggle nav-link" data-toggle="dropdown" href="#"
 					style="font-family: Spartan; font-size: 14px">MY

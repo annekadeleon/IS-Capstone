@@ -3,17 +3,15 @@
 
 <t:page_template>
 	<jsp:attribute name="title">Data - View</jsp:attribute>
-	<jsp:attribute name="header">Business Data Overview</jsp:attribute>
-	<jsp:attribute name="subhead">
-		<!-- No subhead -->
-	</jsp:attribute>
+	<jsp:attribute name="header">Business Data Center</jsp:attribute>
+	<jsp:attribute name="subhead">Overview</jsp:attribute>
 
 	<jsp:body>
 		<div class="row">
-			<div class="col data">
+			<div class="col data" style="max-width: 480px;">
 				<div class="row" style="padding: 0 10 0">
 					<div class="col">
-						<h2>Orders</h2>
+						<h3>Orders</h2>
 					</div>
 					<div class="col" style="text-align: right; margin-bottom: 15px; margin-top: auto;">
 						<a href="add_data.jsp">Add data</a>
@@ -112,7 +110,7 @@
 			<div class="col data">
 				<div class="row" style="padding: 0 10 0">
 					<div class="col">
-						<h2>Expenses</h2>
+						<h3>Expenses</h2>
 					</div>
 					<div class="col" style="text-align: right; margin-bottom: 15px; margin-top: auto;">
 						<a href="add_data.jsp">Add data</a>
@@ -218,7 +216,7 @@
 			<div class="col data">
 				<div class="row" style="padding: 0 10 0">
 					<div class="col-7">
-						<h2>Sold Items</h2>
+						<h3>Sold Items</h2>
 					</div>
 					<div class="col" style="text-align: right; margin-bottom: 15px; margin-top: auto;">
 						<a href="add_data.jsp">Add data</a>
