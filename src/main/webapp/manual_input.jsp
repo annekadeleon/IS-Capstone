@@ -184,15 +184,17 @@ main {
                     <div class="card-body">
                         <h5 class="card-title"><u>Shop Expenses</u></h5>
                         <p class="card-text">
-                            <div class="btn-group">
-  								<p style="margin-left: 20px; margin-right: 100px;color: #FFFFFF;">Select Range: </p>
-  								<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="float: right;">
-  								 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-  								<div class="dropdown-menu dropdown-menu-right">
-   		 							<button class="dropdown-item" type="button">Daily</button>
-    								<button class="dropdown-item" type="button">Weekly</button>
-    								<button class="dropdown-item" type="button">Monthly</button>
-  								</div>
+                            <div class="dropdown">
+								<p style="margin-left: 20px; margin-right: 100px;color: #FFFFFF;">Select Range: </p>
+  								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="float: right; margin-top: -50px;">
+    							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    							<span class="caret"></span>
+  								</button>
+ 									 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#" data-value="action" style="color: #293241; font-family: Spartan;">Daily</a></li>
+    									<li><a href="#" data-value="another action" style="color: #293241; font-family: Spartan;">Weekly</a></li>
+    									<li><a href="#" data-value="something else here" style="color: #293241; font-family: Spartan;">Monthly</a></li>
+  									</ul>
 							</div>
 							<p class="text-center" style="color: #FFFFFF; font-size: 20px;"><br>Select all expenses that apply:</p>
 							<div class="form-check; text-center" style="color: #FFFFFF;">
@@ -233,16 +235,19 @@ main {
                     <div class="card-body">
                         <h5 class="card-title"><u>Net Sales</u></h5>
                         <p class="card-text">
-                            <div class="btn-group">
-  								<p style="margin-left: 20px; margin-right: 100px;color: #FFFFFF;">Select Range: </p>
-  								<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="float: right;">
-  								 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-  								<div class="dropdown-menu dropdown-menu-right">
-   		 							<button class="dropdown-item" type="button">Daily</button>
-    								<button class="dropdown-item" type="button">Weekly</button>
-    								<button class="dropdown-item" type="button">Monthly</button>
-  								</div>
+							<div class="dropdown">
+								<p style="margin-left: 20px; margin-right: 100px;color: #FFFFFF;">Select Range: </p>
+  								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="float: right; margin-top: -50px;">
+    							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    							<span class="caret"></span>
+  								</button>
+ 									 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#" data-value="action" style="color: #293241; font-family: Spartan;">Daily</a></li>
+    									<li><a href="#" data-value="another action" style="color: #293241; font-family: Spartan;">Weekly</a></li>
+    									<li><a href="#" data-value="something else here" style="color: #293241; font-family: Spartan;">Monthly</a></li>
+  									</ul>
 							</div>
+							
 							<div class="form-group">
     							<br><br>
     							<input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter net sales amount">
@@ -291,5 +296,12 @@ main {
 		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
 		integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
 		crossorigin="anonymous"></script>
+	<script>
+	$(".dropdown-menu li a").click(function(){
+		  $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+		  $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+		});
+	</script>
+	
 </body>
 </html>

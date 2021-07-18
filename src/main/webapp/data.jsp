@@ -25,6 +25,7 @@
 		      				<th>Yesterday</th>
 		      				<th></th>
 		      				<th></th>
+		      				<th></th> 			
 		    			</tr>
 		  			</thead>
 		  			<tbody>
@@ -32,11 +33,18 @@
 		      				<th>ORDER#1589</th>
 		      				<td>&#8369;1,000.00</td>
 		      				<td>1 item</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
+      					
+		      				
 		    			</tr>
 		  			</tbody>
 		  			<thead>
 		    			<tr>
 		      				<th>Saturday</th>
+		      				<th></th>
 		      				<th></th>
 		      				<th></th>
 		    			</tr>
@@ -46,17 +54,26 @@
 		      				<th>ORDER#1588</th>
 		      				<td>&#8369;1,500.00</td>
 		      				<td>1 item</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		    			<tr class="table-row-even">
 		      				<th>ORDER#1587</th>
 		      				<td>&#8369;5,700.00</td>
 		      				<td>4 items</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		  			</tbody>
 		  			
 		  			<thead>
 		    			<tr>
 		      				<th>Friday</th>
+		      				<th></th>
 		      				<th></th>
 		      				<th></th>
 		    			</tr>
@@ -66,16 +83,28 @@
 		      				<th>ORDER#1586</th>
 		      				<td>&#8369;1,500.00</td>
 		      				<td>1 item</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		    			<tr class="table-row-even">
 		      				<th>ORDER#1585</th>
 		      				<td>&#8369;1,000.00</td>
 		      				<td>1 item</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		    			<tr class="table-row-even">
 		      				<th>ORDER#1584</th>
 		      				<td>&#8369;2,700.00</td>
 		      				<td>2 items</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		  			</tbody>
 				</table>
@@ -95,6 +124,7 @@
 		      				<th>Today</th>
 		      				<th></th>
 		      				<th></th>
+		      				<th></th>
 		    			</tr>
 		  			</thead>
 		  			<tbody>
@@ -102,11 +132,16 @@
 		      				<th>Payroll</th>
 		      				<td>&#8369;800.00</td>
 		      				<td>Fixed Cost</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		  			</tbody>
 		  			<thead>
 		    			<tr>
 		      				<th>Yesterday</th>
+		      				<th></th>
 		      				<th></th>
 		      				<th></th>
 		    			</tr>
@@ -116,11 +151,16 @@
 		      				<th>Capital Expenditures</th>
 		      				<td>&#8369;500.00</td>
 		      				<td>Variable Cost</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		  			</tbody>
 		  			<thead>
 		    			<tr>
 		      				<th>Saturday</th>
+		      				<th></th>
 		      				<th></th>
 		      				<th></th>
 		    			</tr>
@@ -130,16 +170,25 @@
 		      				<th>Capital Expenditures</th>
 		      				<td>&#8369;1,000.00</td>
 		      				<td>Variable Cost</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		    			<tr class="table-row-even">
 		      				<th>Supplier Payments</th>
 		      				<td>&#8369;700.00</td>
 		      				<td>Variable Cost</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		  			</tbody>
 		  			<thead>
 		    			<tr>
 		      				<th>Friday</th>
+		      				<th></th>
 		      				<th></th>
 		      				<th></th>
 		    			</tr>
@@ -149,11 +198,19 @@
 		      				<th>Capital Expenditures</th>
 		      				<td>&#8369;1,300.00</td>
 		      				<td>Variable Cost</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		    			<tr class="table-row-even">
 		      				<th>Supplier Payments</th>
 		      				<td>&#8369;1400.00</td>
 		      				<td>Variable Cost</td>
+		      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 		    			</tr>
 		  			</tbody>
 				</table>
@@ -172,6 +229,7 @@
 			      				<th>Today</th>
 			      				<th></th>
 			      				<th></th>
+			      				<th></th>
 			    			</tr>
 			  			</thead>
 			  			<tbody>
@@ -179,16 +237,25 @@
 			      				<th>Moisturising Lotion</th>
 			      				<td>2 sold</td>
 			      				<td>55 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			    			<tr class="table-row-odd">
 			      				<th>Niacinamide Serum</th>
 			      				<td>1 sold</td>
 			      				<td>66 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			  			</tbody>
 			  			<thead>
 			    			<tr>
 			      				<th>Yesterday</th>
+			      				<th></th>
 			      				<th></th>
 			      				<th></th>
 			    			</tr>
@@ -198,11 +265,16 @@
 			      				<th>Soothing Gel</th>
 			      				<td>1 sold</td>
 			      				<td>42 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			  			</tbody>
 			  			<thead>
 			    			<tr>
 			      				<th>Saturday</th>
+			      				<th></th>
 			      				<th></th>
 			      				<th></th>
 			    			</tr>
@@ -212,31 +284,52 @@
 			      				<th>Moisturising Lotion</th>
 			      				<td>2 sold</td>
 			      				<td>56 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			    			<tr class="table-row-odd">
 			      				<th>Niacinamide Serum</th>
 			      				<td>1 sold</td>
 			      				<td>67 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			    			<tr class="table-row-odd">
 			      				<th>Pimple Patch</th>
 			      				<td>1 sold</td>
 			      				<td>24 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			    			<tr class="table-row-odd">
 			      				<th>Water-based Sunscreen</th>
 			      				<td>1 sold</td>
 			      				<td>26 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			    			<tr class="table-row-odd">
 			      				<th>Gentle Cleanser</th>
 			      				<td>1 sold</td>
 			      				<td>46 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			  			</tbody>
 			  			<thead>
 			    			<tr>
 			      				<th>Friday</th>
+			      				<th></th>
 			      				<th></th>
 			      				<th></th>
 			    			</tr>
@@ -246,16 +339,28 @@
 			      				<th>Moisturising Lotion</th>
 			      				<td>2 sold</td>
 			      				<td>57 left</td>
+			      				<td>
+                    				<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    				<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      							</td>
 			    			</tr>
 			    			<tr class="table-row-odd">
 			      				<th>Vitamin C Serum</th>
 			      				<td>1 sold</td>
 			      				<td>32 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			    			<tr class="table-row-odd">
 			      				<th>Tea Tree Shampoo</th>
 			      				<td>1 sold</td>
 			      				<td>23 left</td>
+			      				<td>
+                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+      						</td>
 			    			</tr>
 			  			</tbody>
 		  			</table>

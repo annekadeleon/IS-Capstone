@@ -333,6 +333,8 @@ footer {
 							<a class="nav-link" href="data.jsp">OVERVIEW</a></li>
 						<li class="nav-item" role="presentation">
 							<a class="nav-link" href="add_data.jsp">UPLOAD NEW DATA</a></li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" href="manual_input.jsp">INPUT NEW DATA</a></li>
 					</ul>
 				</li>
 				<li class="nav-item" role="presentation"><a class="nav-link"
