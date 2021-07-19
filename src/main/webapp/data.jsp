@@ -32,7 +32,7 @@
 		      				<td>&#8369;2,700.00</td>
 		      				<td>2 items</td>
 		      				<td>
-                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
+                    			<a href="data_edit.jsp" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
                     			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
       						</td>
 		    			</tr>
@@ -149,7 +149,7 @@
 		      				<td>Fixed Cost</td>
 		      				<td>
                     			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
-                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
+                    			<a href="data_delete.jsp" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
       						</td>
 		    			</tr>
 		  			</tbody>
@@ -239,35 +239,7 @@
 						<a href="add_data.jsp">Add data</a>
 					</div> -->
 					<table class="table">
-			  			<thead>
-			    			<tr>
-			      				<th>Today</th>
-			      				<th></th>
-			      				<th></th>
-			      				<th></th>
-			    			</tr>
-			  			</thead>
-			  			<tbody>
-			    			<tr class="table-row-odd">
-			      				<th>Moisturising Lotion</th>
-			      				<td>2 sold</td>
-			      				<td>55 left</td>
-			      				<td>
-                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
-                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
-      						</td>
-			    			</tr>
-			    			<tr class="table-row-odd">
-			      				<th>Niacinamide Serum</th>
-			      				<td>1 sold</td>
-			      				<td>66 left</td>
-			      				<td>
-                    			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" style="color:yellow;">&#xE254;</i></a>
-                    			<a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" style="color:red;">&#xE872;</i></a>
-      						</td>
-			    			</tr>
-			  			</tbody>
-			  			<thead>
+						<thead>
 			    			<tr>
 			      				<th>Yesterday</th>
 			      				<th></th>
@@ -384,7 +356,9 @@
 		</div>
 		
 		<div style="text-align: center; margin-bottom: 15px;">
-			<a class="btn btn-outline-secondary" href="add_data.jsp" style="width: 20%;">Add data</a>
+				<a class="btn btn-outline-secondary" href="add_data.jsp" style="width: 20%;">Add data</a>
+				<span style="display: inline-block; width: 50px;"></span>
+				<a class="btn btn-outline-secondary" href="business_data_analysis.jsp" style="width: 20%;">Analyse data</a>
 		</div>
     </jsp:body>
 
