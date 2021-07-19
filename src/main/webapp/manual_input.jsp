@@ -256,7 +256,7 @@ main {
                           
                     </div>
                 </div>
-                <a href="#" class="btn btn-lrg" style="margin-top: 100px; background-color: #EE6C4D; color: #FFFFFF; height: 60px; font-size: 30px; margin-left: 10px;">
+                <a href="data.jsp" class="btn btn-lrg" style="margin-top: 100px; background-color: #EE6C4D; color: #FFFFFF; height: 60px; font-size: 30px; margin-left: 10px;">
                             <u><b>Review Data for Analysis</u>
                         </a>
             </div>
