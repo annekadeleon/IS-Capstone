@@ -19,7 +19,7 @@
      @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
 
         .container{
-        height: 20%;
+        height: 100%;
         align-content: center;
         }
   		
@@ -119,7 +119,7 @@ if(myCookies != null)
 
 %>
 
-<body>
+<body style="height: 100%;">
 	 <nav class="navbar navbar-primary navbar-expand-lg fixed-top clean-navbar" style="background-color:#EE6C4D; height: 70px;">
         <a class="navbar-brand logo" href="home.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOGO</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
@@ -137,8 +137,10 @@ if(myCookies != null)
                 </ul>
             </div>
     </nav>
-	<form action="LoginServlet" method="post">
+    
+    
    <main class="page landing-page">
+	<form action="LoginServlet" method="post">
 
 
     <div class="container">
@@ -237,10 +239,11 @@ if(myCookies != null)
             </div>
         </section>
 
-    </main>
 </form>
+
+    </main>
                         
-   <footer class="page-footer dark" style= "background-color: #D4E4ED; margin-top: 0px; height: 200px;">
+   <footer class="page-footer dark" style= "background-color: #D4E4ED; margin-top: 40px; height: 200px;">
         <div class="container">
             <div class="row"
                 style="font-size: 35px; font-family: Spartan;"><br> LOGO
