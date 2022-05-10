@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="assets/css/smoothproducts.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     
     <style>
 
      @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
 
         .container{
         height: 100%;
@@ -33,7 +35,7 @@
         margin-left:-555px;
         margin-bottom: 60px;
         width: 370px;
-        background-color: rgba(0,0,0,0.7) !important;
+        background-color: white;
         }
 
 
@@ -44,8 +46,8 @@
 
         .input-group-prepend span{
         width: 50px;
-        background-color: #F4B0A1;
-        color: black;
+        background-color: #1C3D86;
+        color: white;
         border:0 !important;
         }
 
@@ -68,8 +70,9 @@
         }
 
         .login_btn{
-        color: black;
-        background-color: #F4B0A1;
+        color: white;
+        background-color: #1C3D86;
+        font-family: Abhaya Libre;
         width: 100px;
         }
 
@@ -80,10 +83,12 @@
 
         .links{
         color: white;
+        font-family: Abhaya Libre;
+        text-align: center;
         }
 
         .links a{
-        margin-left: 4px;
+        text-align: center;
         }
         
     </style>
@@ -92,7 +97,7 @@
 
     <%
 
-String username = "";
+String email = "";
 String password = "";
 Cookie[] myCookies = request.getCookies();
 
@@ -100,9 +105,9 @@ if(myCookies != null)
 {
 	for (Cookie tempCookie : myCookies)
 	{
-		if("mySite.username".equals(tempCookie.getName()))
+		if("mySite.email".equals(tempCookie.getName()))
 		{
-			username = tempCookie.getValue();
+			email = tempCookie.getValue();
 			break;
 		}
 	}
@@ -120,8 +125,8 @@ if(myCookies != null)
 %>
 
 <body style="height: 100%;">
-	 <nav class="navbar navbar-primary navbar-expand-lg fixed-top clean-navbar" style="background-color:#EE6C4D; height: 70px;">
-        <a class="navbar-brand logo" href="home.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOGO</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+	 <nav class="navbar navbar-primary navbar-expand-lg fixed-top clean-navbar" style="background-color:#FFFFFF; height: 70px;">
+        <a class="navbar-brand logo" href="home.jsp" style="font-family: Spartan; color:  #1C3D86; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FOODATALYTICS</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 
@@ -129,10 +134,10 @@ if(myCookies != null)
        
                 
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">HOME</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">ABOUT</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="usersignup.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">SIGNUP</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.jsp" style="font-family: Spartan; color: #293241; font-size: 14px">LOGIN</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #1C3D86; font-size: 14px">HOME</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #1C3D86; font-size: 14px">ABOUT</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.jsp" style="font-family: Spartan; color: #CD4A6C; font-size: 14px">LOGIN</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="usersignup.jsp" style="font-family: Spartan; color: #1C3D86; font-size: 14px">SIGNUP</a></li>
  
                 </ul>
             </div>
@@ -198,33 +203,36 @@ if(myCookies != null)
                             <div class="d-flex justify-content-center h-100">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h3 style = "text-align: center"> Log In</h3>
+                                        <h3 style = "text-align: center; font-family: Spartan; color: #1C3D86"><b>Log In</b></h3>
                                     </div>
                                     <div class="card-body">                                        
                                         <form method="post" action="Login">
                                             <div class="input-group form-group">
                                                 <div class="input-group-prepend">
-                                                    <span class="input-group-text" style="background-color: #EE6C4D"><i class="fas fa-info"></i></span>
+                                                    <span class="input-group-text" style="background-color: #1C3D86"><i class="fas fa-info"></i></span>
                                                 </div>
-                                                <input type="text" class="form-control" placeholder="username" name= "username" id="username" value="<%=username%>"/>
+                                                <input type="email" class="form-control" placeholder="Email Address" name= "email" id="email" value="<%=email%>"/>
 
                                             </div>
                                             <div class="input-group form-group">
                                                 <div class="input-group-prepend">
-                                                    <span class="input-group-text" style="background-color: #EE6C4D"><i class="fas fa-key"></i></span>
+                                                    <span class="input-group-text" style="background-color: #1C3D86"><i class="fas fa-key"></i></span>
                                                 </div>
-                                                <input type="password" class="form-control" placeholder="password" name= "password" id="password" value="<%=password%>"/>
+                                                <input type="password" class="form-control" placeholder="Password" name= "password" id="password" value="<%=password%>"/>
                                                 
                                                 
-                                            </div>
+                                        </div>
 
                                             
 
                                             
 
-                                            <div class="form-group" style="color: #ffffff">
+                                            <div class="form-group" style="color: #000000">
                                             <input type="checkbox" name="rememberme"  value="RememberMe"/> Remember me <br />
-                                                <input type="submit" value="Login" class="btn float-center login_btn" style="margin-top: 9px ; background-color: #EE6C4D; margin-left: 36%" onclick="display()">
+                                                <input type="submit" value="Login" class="btn float-center login_btn" style="margin-top: 9px ; background-color: #1C3D86; margin-left: 36%" onclick="display()">
+                                            <div class="d-flex links">
+                                            	<a href="privacy.jsp" style="color: #1C3D86; margin-left: 110px;">Forgot Password?</a>
+                                      	  	</div>
                                             </div>
                                         </form>
                                     </div>
@@ -243,13 +251,13 @@ if(myCookies != null)
 
     </main>
                         
-   <footer class="page-footer dark" style= "background-color: #D4E4ED; margin-top: 40px; height: 200px;">
+   <footer class="page-footer dark" style= "background-color: #BFC9E1; margin-top: 40px; height: 200px;">
         <div class="container">
             <div class="row"
-                style="font-size: 35px; font-family: Spartan;"><br> LOGO
+                style="font-size: 35px; font-family: Spartan;"><br> FOODATALYTICS
             </div>
             <div class="row"
-                style="font-size: 15px; font-family: Spartan;"> © 2021 Analytics for SMRetailEs
+                style="font-size: 15px; font-family: Spartan; color:#1C3D86;"> © 2021 Foodatalytics
             </div>
         </div>
 	</footer>
