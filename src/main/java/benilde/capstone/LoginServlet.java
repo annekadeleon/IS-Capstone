@@ -21,20 +21,20 @@ public class LoginServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String username = request.getParameter("username");
+		String email = request.getParameter("email");
 		String password = request.getParameter("password");
 		
-		if(username.equals("anneka.deleon") && password.equals("csb") || username.equals("jam.anchores") && password.equals("csb") || username.equals("caryl.vallejo") && password.equals("csb")) 
+		if(email.equals("anneka.deleon") && password.equals("csb") || email.equals("caryl.vallejo@gmail.com") && password.equals("csb")) 
 		{
 			HttpSession session = request.getSession();
-			session.setAttribute("username", username);
+			session.setAttribute("email", email);
 			response.sendRedirect("welcome.jsp");
 		}
 		
-		else if(username.equals("admin1") && password.equals("adminpw"))
+		else if(email.equals("admin1@gmail.com") && password.equals("adminpw"))
 		{
 			HttpSession session = request.getSession();
-			session.setAttribute("username", username);
+			session.setAttribute("email", email);
 			response.sendRedirect("useradmin.jsp");
 		}
 		else{

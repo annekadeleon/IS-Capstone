@@ -34,7 +34,8 @@
         font-size: 50px; 
         margin-left: 70px; 
         height: 590px; 
-        background-color: #f8bcb4;
+        color: #CD4A6C;
+        font-family: Spartan;
         }
         
         .page-footer{
@@ -46,9 +47,9 @@
     </style>
 </head>
 
-<body>
-    <nav class="navbar navbar-primary navbar-expand-lg fixed-top clean-navbar" style="background-color:#EE6C4D">
-        <a class="navbar-brand logo" href="home.jsp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOGO</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+<body style="height: 100%;">
+	 <nav class="navbar navbar-primary navbar-expand-lg fixed-top clean-navbar" style="background-color:#FFFFFF; height: 70px;">
+        <a class="navbar-brand logo" href="home.jsp" style="font-family: Spartan; color:  #1C3D86; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FOODATALYTICS</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 
@@ -56,16 +57,11 @@
        
                 
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #293241; font-size: 14px">HOME</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">ABOUT</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="usersignup.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">SIGNUP</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.jsp" style="font-family: Spartan; color: #FFFFFF; font-size: 14px">LOGIN</a></li>
-                   <!--   <%if(session.getAttribute("username") != null) { %> 
-                    Welcome <%=session.getAttribute("username").toString() %>! <%} else { %>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.jsp" style="font-family: Spartan; color: white">Login</a></li><%} %>
-			
-					 <%if (session.getAttribute("username") != null) { %>
-					 <li class="nav-item" role="presentation"><a class="nav-link" href="Logout">Logout</a></li> <%} %> -->
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #CD4A6C; font-size: 14px">HOME</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="support.jsp" style="font-family: Spartan; color: #1C3D86; font-size: 14px">ABOUT</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.jsp" style="font-family: Spartan; color: #1C3D86; font-size: 14px">LOGIN</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="usersignup.jsp" style="font-family: Spartan; color: #1C3D86; font-size: 14px">SIGNUP</a></li>
+ 
                 </ul>
             </div>
     </nav>
@@ -77,17 +73,18 @@
 
             <br>
 
-            <div class="p-3 mb-2 text-black"><br><br>Business Data <br> Analytics Tool for <br> Retail Enterprises</div>
+            <div class="p-3 mb-2 text-black"><br><br>Foodatalytics</div>
+            <p style = "color: #1C3D86; font-family: Abhaya Libre; font-size: 29px; margin-left: -358px; margin-top: -60px;"> Feeding data into decisions. </p>
         </section>
 
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer dark" style= "background-color: #BFC9E1; margin-top: 40px; height: 200px;">
         <div class="container">
             <div class="row"
-                style="font-size: 35px; font-family: Spartan;"><br> LOGO
+                style="font-size: 35px; font-family: Spartan;"><br> FOODATALYTICS
             </div>
             <div class="row"
-                style="font-size: 15px; font-family: Spartan;"> © 2021 Analytics for SMRetailEs
+                style="font-size: 15px; font-family: Abhaya Libre; color:#1C3D86;"> © 2021 Foodatalytics
             </div>
         </div>
 	</footer>
